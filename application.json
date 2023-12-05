@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "Resell ticket",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "View upcoming events",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,
@@ -31,6 +31,9 @@
   "color": "#FFEFDB",
   "icon": "calender",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
