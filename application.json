@@ -7,6 +7,10 @@
     {
       "id": "View upcoming events",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
