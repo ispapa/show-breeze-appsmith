@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T20:09:14Z"
+    "userPermissions": []
   },
   "id": "Resell ticket_getTickets",
   "deleted": false,
