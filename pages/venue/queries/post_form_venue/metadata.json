@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{CreateVenueForm.formData}}",
+      "body": "{\n  \"capacity\": {{CreateVenueForm.formData.capacity}},\n  \"city\": {{CreateVenueForm.formData.city}},\n  \"endTime\": \"{{CreateVenueForm.formData.endTIME}}\",\n  \"name\": \"{{CreateVenueForm.formData.name}}\",\n  \"ownerId\": {{UserTable.selectedRow.userId}},\n  \"price\": {{CreateVenueForm.formData.price}},\n  \"startTime\": \"{{CreateVenueForm.formData.startTime}}\",\n  \"state\": {{CreateVenueForm.formData.state}},\n  \"street\": {{CreateVenueForm.formData.street}},\n  \"zip\": {{CreateVenueForm.formData.zip}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "CreateVenueForm.formData"
+      "CreateVenueForm.formData.capacity",
+      "CreateVenueForm.formData.city",
+      "CreateVenueForm.formData.endTIME",
+      "CreateVenueForm.formData.name",
+      "CreateVenueForm.formData.price",
+      "CreateVenueForm.formData.startTime",
+      "CreateVenueForm.formData.state",
+      "CreateVenueForm.formData.street",
+      "CreateVenueForm.formData.zip",
+      "UserTable.selectedRow.userId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

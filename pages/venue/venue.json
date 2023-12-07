@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1130,
+          "bottomRow": 1350,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -27,6 +27,14 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "venue_get_users",
+              "name": "get_users",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "venue_get_venues",
               "name": "get_venues",

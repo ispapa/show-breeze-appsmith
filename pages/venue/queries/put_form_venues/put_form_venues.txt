@@ -1,13 +1,12 @@
 {
-  "capacity": {{UpdateVenueForm.fieldState.capacity}},
-  "city": {{UpdateVenueForm.fieldState.city}},
-  "endTIME": {{UpdateVenueForm.fieldState.endTIME}},
-  "name": {{UpdateVenueForm.fieldState.name}},
-  "ownerId": {{UpdateVenueForm.fieldState.ownerId}},
-  "price": {{UpdateVenueForm.fieldState.price}},
-  "startTime": {{UpdateVenueForm.fieldState.startTime}},
-  "state": {{UpdateVenueForm.fieldState.state}},
-  "street": {{UpdateVenueForm.fieldState.street}},
-  "zip": {{UpdateVenueForm.fieldState.zip}},
-	"venueId": {{UpdateVenueForm.sourceData.venueId}}
+  "capacity": {{UpdateVenueForm.formData.capacity}},
+  "city": {{UpdateVenueForm.formData.city}},
+  "endTime": "{{UpdateVenueForm.formData.endTIME}}",
+  "name": {{UpdateVenueForm.formData.name}},
+  "ownerId": {{UpdateVenueForm.formData.ownerId}},
+  "price": {{UpdateVenueForm.formData.price}},
+  "startTime": "{{UpdateVenueForm.formData.startTime}}",
+  "state": {{UpdateVenueForm.formData.state}},
+  "street": {{UpdateVenueForm.formData.street}},
+  "zip": {{UpdateVenueForm.formData.zip}}
 }

@@ -1,19 +1,21 @@
 export default {
-	selectOrNot () {
+	selectVenueOrNot () {
 		if (VenueTable.selectedRow.name != "") {
 			return "(Selected " + VenueTable.selectedRow.name + " Venue)"
 		}
 		return ""
 	},
-	putVenue () {
-		if (VenueTable.selectedRow.name != "") {
-			put_form_venues.run()
+	selectedUserOrNot() {
+		if (UserTable.selectedRow.firstName != "") {
+			return "(Selected " + UserTable.selectedRow.firstName + ", UserId: " + UserTable.selectedRow.userId + " )"
 		}
-		return 
+		return "(Must Select User Below)"
 	},
-	postVenue () {
-		post_form_venue.run()
-		return 
-	}
+	tableSelectVenueOrNot() {
+		if (UserTable.selectedRow.firstName != "") {
+			return "(Selected " + UserTable.selectedRow.firstName + ", UserId: " + UserTable.selectedRow.userId + " )"
+		}
+		return "(Shows all Venues for demo, Please Select User)"
+	},
 }
 

@@ -7,4 +7,14 @@ export default {
 			return "Nothing is Selected"
 		}
 	},
+	putVenue () {
+		if (VenueTable.selectedRow.name != "") {
+			put_form_venues.run()
+		}
+		return 
+	},
+	postVenue () {
+		post_form_venue.run()
+		return 
+	}
 }

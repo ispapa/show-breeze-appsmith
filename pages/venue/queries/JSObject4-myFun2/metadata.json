@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "postVenue",
-    "fullyQualifiedName": "JSObject2.postVenue",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject4.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "venue",
-    "collectionId": "venue_JSObject2",
+    "collectionId": "venue_JSObject4",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -23,6 +23,7 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "venue_JSObject2.postVenue",
+  "id": "venue_JSObject4.myFun2",
   "deleted": false,
-  "gitSyncId": "656fc5c7c95007122f4096a5_657171e9bc08255bb08bd956"
+  "gitSyncId": "656fc5c7c95007122f4096a5_6572137f9a24b302fa0a12a5"
 }
