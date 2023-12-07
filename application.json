@@ -7,6 +7,10 @@
     {
       "id": "View upcoming events",
       "isDefault": true
+    },
+    {
+      "id": "View Available Seats",
+      "isDefault": false
     }
   ],
   "viewMode": false,

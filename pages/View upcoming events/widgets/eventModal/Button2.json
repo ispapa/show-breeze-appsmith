@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button2",
+    "onClick": "{{navigateTo('View Available Seats', {\n  \"eventId\": eventsTable.selectedRow[\"Event ID\"]\n}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -16,7 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
