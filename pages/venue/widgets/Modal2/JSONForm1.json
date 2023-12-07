@@ -278,7 +278,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 66,
+    "bottomRow": 54,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update a seat\n",

@@ -311,7 +311,7 @@
                 "sourceData": "",
                 "labelTextSize": "0.875rem",
                 "identifier": "endTIME",
-                "isRequired": false,
+                "isRequired": true,
                 "isCustomField": false,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "dataType": "string",

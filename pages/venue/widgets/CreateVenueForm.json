@@ -285,7 +285,7 @@
                 "sourceData": "2023-04-20 20:00",
                 "labelTextSize": "0.875rem",
                 "identifier": "endTIME",
-                "isRequired": false,
+                "isRequired": true,
                 "isCustomField": false,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(CreateVenueForm.sourceData, CreateVenueForm.formData, CreateVenueForm.fieldState)}}",
                 "dataType": "string",
