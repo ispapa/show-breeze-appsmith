@@ -1,0 +1,12 @@
+{
+  "capacity": {{UpdateVenueForm.formData.capacity}},
+  "city": {{UpdateVenueForm.formData.city}},
+  "endTime": "{{UpdateVenueForm.formData.endTIME}}",
+  "name": {{UpdateVenueForm.formData.name}},
+  "ownerId": {{UpdateVenueForm.formData.ownerId}},
+  "price": {{UpdateVenueForm.formData.price}},
+  "startTime": "{{UpdateVenueForm.formData.startTime}}",
+  "state": {{UpdateVenueForm.formData.state}},
+  "street": {{UpdateVenueForm.formData.street}},
+  "zip": {{UpdateVenueForm.formData.zip}}
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject3",
+    "pageId": "venue",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "venue_JSObject3",
+  "deleted": false,
+  "gitSyncId": "656fc5c7c95007122f4096a5_65716c85bc08255bb08bd94a"
+}
