@@ -174,7 +174,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.zip))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "zip",
                 "isVisible": true,
                 "label": "Zip",
@@ -185,8 +185,8 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 75236,
+                "fieldType": "Number Input"
             },
             "city": {
                 "labelTextSize": "0.875rem",
@@ -218,7 +218,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.price))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "price",
                 "isVisible": true,
                 "label": "Price",
@@ -229,8 +229,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 10895,
+                "fieldType": "Number Input"
             },
             "street": {
                 "labelTextSize": "0.875rem",
@@ -262,7 +262,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.venueId))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "venueId",
                 "isVisible": true,
                 "label": "Venue Id",
@@ -273,8 +273,8 @@
                 "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 30,
+                "fieldType": "Number Input"
             },
             "name": {
                 "labelTextSize": "0.875rem",
@@ -382,7 +382,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ownerId))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "ownerId",
                 "isVisible": true,
                 "label": "Owner Id",
@@ -393,8 +393,8 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 12,
+                "fieldType": "Number Input"
             },
             "capacity": {
                 "labelTextSize": "0.875rem",
@@ -404,7 +404,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.capacity))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateVenueForm.sourceData, UpdateVenueForm.formData, UpdateVenueForm.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "capacity",
                 "isVisible": true,
                 "label": "Capacity",
@@ -415,8 +415,8 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 7930,
+                "fieldType": "Number Input"
             }
         },
         "position": -1,
@@ -464,7 +464,7 @@
     "key": "98hcvml6ud",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 34,
+    "rightColumn": 33,
     "widgetId": "63gxvdxpq2",
     "minWidth": 450,
     "parentId": "0",

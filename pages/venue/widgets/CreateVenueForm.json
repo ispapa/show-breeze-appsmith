@@ -6,7 +6,7 @@
     "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 34,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},

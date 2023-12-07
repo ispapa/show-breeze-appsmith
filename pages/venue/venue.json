@@ -43,6 +43,18 @@
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
+          ],
+          [
+            {
+              "id": "venue_get_venue_seats",
+              "name": "get_venue_seats",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "VenueTable.selectedRow.venueId"
+              ],
+              "timeoutInMillisecond": 10000
+            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
