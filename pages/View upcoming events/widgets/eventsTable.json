@@ -16,7 +16,8 @@
         {"key": "tableData"},
         {"key": "primaryColumns.Event_Date.computedValue"},
         {"key": "primaryColumns.Event_Name.computedValue"},
-        {"key": "primaryColumns.Venue_Name.computedValue"}
+        {"key": "primaryColumns.Venue_Name.computedValue"},
+        {"key": "primaryColumns.Event_ID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -58,8 +59,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701747419262,
-    "originalBottomRow": 57,
+    "columnUpdatedAt": 1701980725279,
+    "originalBottomRow": 60,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 65,
     "widgetName": "eventsTable",
@@ -67,7 +68,8 @@
     "columnOrder": [
         "Event_Date",
         "Event_Name",
-        "Venue_Name"
+        "Venue_Name",
+        "Event_ID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -181,6 +183,40 @@
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
+        },
+        "Event_ID": {
+            "computedValue": "{{eventsTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Event ID\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Event ID",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Event_ID",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 1,
+            "isDiscardVisible": true,
+            "isVisible": false,
+            "label": "Event ID",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "number",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "Event ID",
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
         }
     },
     "onRowSelected": "{{showModal('eventModal');}}",
@@ -200,7 +236,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 5,
+    "originalTopRow": 8,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
