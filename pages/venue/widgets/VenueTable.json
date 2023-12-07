@@ -66,7 +66,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701931879051,
+    "columnUpdatedAt": 1701978962537,
     "originalBottomRow": 115,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 27,
@@ -79,18 +79,25 @@
         "state",
         "city",
         "street",
+        "zip",
         "startTime",
         "endTIME",
         "venueId",
-        "zip",
         "ownerId"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 97,
     "columnWidthMap": {
-        "price": 79,
-        "capacity": 106
+        "zip": 92,
+        "city": 103,
+        "price": 94,
+        "street": 145,
+        "name": 176,
+        "endTIME": 258,
+        "startTime": 183,
+        "state": 98,
+        "capacity": 105
     },
     "parentRowSpace": 10,
     "hideCard": false,
