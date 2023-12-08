@@ -59,7 +59,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701995447942,
+    "columnUpdatedAt": 1701998418257,
     "originalBottomRow": 42,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 43,
@@ -75,12 +75,16 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 42,
-    "columnWidthMap": {"seatRow": 148},
+    "columnWidthMap": {
+        "seatRow": 148,
+        "seatId": 89,
+        "availability": 131
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "seatRow": {
@@ -254,6 +258,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('purchaseModal');}}",
     "key": "0dmtd3orw4",
     "canFreezeColumn": true,
     "isDeprecated": false,
