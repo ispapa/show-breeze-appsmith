@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "ConfirmButton",
-    "onClick": "{{closeModal('purchaseModal');\npurchaseSeat.run({\n  \"ticket\": seatsTable.selectedRow\n});}}",
+    "onClick": "{{closeModal('purchaseModal');\npurchaseSeat.run(seatsTable.selectedRow);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -41,11 +41,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "hug",
-    "originalTopRow": 17,
+    "originalTopRow": 18,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
-    "originalBottomRow": 22,
+    "originalBottomRow": 23,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
