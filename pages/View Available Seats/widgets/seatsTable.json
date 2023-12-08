@@ -22,7 +22,7 @@
     "needsHeightForContent": true,
     "leftColumn": 3,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "44",
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -59,8 +59,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701998418257,
-    "originalBottomRow": 42,
+    "columnUpdatedAt": 1702000306650,
+    "originalBottomRow": 45,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 43,
     "widgetName": "seatsTable",
@@ -74,11 +74,12 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 42,
+    "bottomRow": 45,
     "columnWidthMap": {
         "seatRow": 148,
         "seatId": 89,
-        "availability": 131
+        "availability": 131,
+        "seatNumber": 145
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -138,7 +139,7 @@
             "allowCellWrapping": false,
             "index": 4,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "venueId",
             "fontStyle": "",
             "textColor": "",
