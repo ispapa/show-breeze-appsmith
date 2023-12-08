@@ -9,7 +9,11 @@
       "isDefault": true
     },
     {
-      "id": "venue",
+      "id": "Performer Events",
+      "isDefault": false
+    },
+    {
+      "id": "Total Earnings",
       "isDefault": false
     }
   ],

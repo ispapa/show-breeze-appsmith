@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getTickets",
+    "name": "get_venues_from_userId_18",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/ti/tickets"
+        "url": "web:4000/u/users/18/venues"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Resell ticket",
+    "pageId": "View upcoming events",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Resell ticket_getTickets",
+  "id": "View upcoming events_get_venues_from_userId_18",
   "deleted": false,
-  "gitSyncId": "656e97aaf1cfd46961918da2_656f836a95067f06867508de"
+  "gitSyncId": "657245d51a526d083ef35d72_657245e41a526d083ef35d7d"
 }

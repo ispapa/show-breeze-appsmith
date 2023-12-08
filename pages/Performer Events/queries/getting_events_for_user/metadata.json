@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getTickets",
+    "name": "getting_events_for_user",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/ti/tickets"
+        "url": "web:4000/u/users/21/events"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Resell ticket",
+    "pageId": "Performer Events",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Resell ticket_getTickets",
+  "id": "Performer Events_getting_events_for_user",
   "deleted": false,
-  "gitSyncId": "656e97aaf1cfd46961918da2_656f836a95067f06867508de"
+  "gitSyncId": "657245d51a526d083ef35d72_657251d81a526d083ef35d85"
 }
