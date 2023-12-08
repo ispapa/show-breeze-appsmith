@@ -173,7 +173,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.venueId))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "venueId",
                 "isVisible": true,
                 "label": "Venue Id",
@@ -184,8 +184,8 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": 18,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "seatId": {
                 "labelTextSize": "0.875rem",
@@ -195,7 +195,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.seatId))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "seatId",
                 "isVisible": true,
                 "label": "Seat Id",
@@ -206,28 +206,30 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 62,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "availability": {
                 "labelTextSize": "0.875rem",
                 "identifier": "availability",
+                "boxShadow": "none",
                 "isRequired": false,
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.availability))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "availability",
                 "isVisible": true,
                 "label": "Availability",
-                "alignWidget": "RIGHT",
                 "originalIdentifier": "availability",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
                 "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Checkbox"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "seatNumber": {
                 "labelTextSize": "0.875rem",
@@ -237,7 +239,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.seatNumber))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UpdateSeatFrom.sourceData, UpdateSeatFrom.formData, UpdateSeatFrom.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "seatNumber",
                 "isVisible": true,
                 "label": "Seat Number",
@@ -248,8 +250,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 24,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             }
         },
         "position": -1,
