@@ -3,8 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button2",
-    "onClick": "{{navigateTo('View Available Seats', {\n  \"eventId\": eventsTable.selectedRow[\"Event ID\"]\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('View Available Seats', {}, 'SAME_WINDOW');\nstoreValue('venueId', eventsTable.selectedRow[\"Venue ID\"]);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
