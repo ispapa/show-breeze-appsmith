@@ -165,7 +165,7 @@
             "index": 2,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Ticket Price",
+            "label": "Ticket Price ",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
