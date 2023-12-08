@@ -7,6 +7,14 @@
     {
       "id": "View upcoming events",
       "isDefault": true
+    },
+    {
+      "id": "Performer Events",
+      "isDefault": false
+    },
+    {
+      "id": "Total Earnings",
+      "isDefault": false
     }
   ],
   "viewMode": false,
