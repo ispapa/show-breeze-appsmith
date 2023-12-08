@@ -11,6 +11,13 @@
     {
       "id": "View Available Seats",
       "isDefault": false
+    },
+      "id": "Performer Events",
+      "isDefault": false
+    },
+    {
+      "id": "Total Earnings",
+      "isDefault": false
     }
   ],
   "viewMode": false,
