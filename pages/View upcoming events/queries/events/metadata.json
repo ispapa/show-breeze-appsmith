@@ -45,7 +45,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T17:19:07Z"
   },
   "id": "View upcoming events_events",
   "deleted": false,
