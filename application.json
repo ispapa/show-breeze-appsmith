@@ -9,6 +9,9 @@
       "isDefault": true
     },
     {
+      "id": "View Available Seats",
+      "isDefault": false
+    },
       "id": "Performer Events",
       "isDefault": false
     },
