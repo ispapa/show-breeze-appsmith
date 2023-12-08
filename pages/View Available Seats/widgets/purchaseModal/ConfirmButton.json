@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "ConfirmButton",
-    "onClick": "{{closeModal('purchaseModal');\nassignSeat.run()}}",
+    "onClick": "{{closeModal('purchaseModal');\nassignSeat.run();\ngetSeats.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Row: {{seatsTable.selectedRow[\"seatRow\"]}}, Seat: {{seatsTable.selectedRow[\"seatNumber\"]}}",
+    "text": "Row: {{seatsTable.selectedRow[\"Seat Row\"]}}, Seat: {{seatsTable.selectedRow[\"Seat Number\"]}}",
     "key": "haj2x5j7dz",
     "isDeprecated": false,
     "rightColumn": 42,
