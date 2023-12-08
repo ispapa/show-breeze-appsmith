@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 34,
+    "leftColumn": 29,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Your Venues:",
     "key": "05o3hx14a7",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 45,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4lbxrb32e5",

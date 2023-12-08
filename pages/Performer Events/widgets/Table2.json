@@ -26,7 +26,7 @@
         {"key": "primaryColumns.zip.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 34,
+    "leftColumn": 29,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
