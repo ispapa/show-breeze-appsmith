@@ -9,15 +9,15 @@
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.venueId.computedValue"},
+        {"key": "primaryColumns.seatRow.computedValue"},
+        {"key": "primaryColumns.seatNumber.computedValue"},
+        {"key": "primaryColumns.seatId.computedValue"},
+        {"key": "primaryColumns.availability.computedValue"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "tableData"},
-        {"key": "primaryColumns.availability.computedValue"},
-        {"key": "primaryColumns.seatId.computedValue"},
-        {"key": "primaryColumns.seatNumber.computedValue"},
-        {"key": "primaryColumns.seatRow.computedValue"},
-        {"key": "primaryColumns.venueId.computedValue"}
+        {"key": "boxShadow"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -73,7 +73,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 54,
+    "bottomRow": 55,
     "columnWidthMap": {
         "availability": 132,
         "seatNumber": 151

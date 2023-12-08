@@ -23,8 +23,8 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 48,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "resetFormOnClick"}
+        {"key": "resetFormOnClick"},
+        {"key": "borderRadius"}
     ],
     "text": "Delete Selected",
     "isDisabled": false,
