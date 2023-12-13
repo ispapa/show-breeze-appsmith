@@ -20,8 +20,8 @@
       "id": "Total Earnings",
       "isDefault": false
     },
-    { 
-      "id": "venue", 
+    {
+      "id": "venue",
       "isDefault": false
     }
   ],

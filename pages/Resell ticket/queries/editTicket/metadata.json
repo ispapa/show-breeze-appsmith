@@ -62,7 +62,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T19:47:32Z"
   },
   "id": "Resell ticket_editTicket",
   "deleted": false,
