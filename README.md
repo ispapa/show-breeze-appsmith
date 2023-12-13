@@ -1,7 +1,6 @@
 ## Link to demo video 
 
-https://drive.google.com/file/d/1su60B3_Ettk0R0VVBNLCwp409VtskNNT/view?usp=sharing
-  
+https://drive.google.com/file/d/1fYxrrQXU62178wzA0nLLekvrEGrQiHot/view?usp=sharing
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
