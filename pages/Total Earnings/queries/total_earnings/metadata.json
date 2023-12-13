@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "events",
+    "name": "total_earnings",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/events"
+        "url": "web:4000/e/events/21/totalEarnings"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "View upcoming events",
+    "pageId": "Total Earnings",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -45,10 +45,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T17:19:07Z"
+    "userPermissions": []
   },
-  "id": "View upcoming events_events",
+  "id": "Total Earnings_total_earnings",
   "deleted": false,
-  "gitSyncId": "656e97aaf1cfd46961918da2_656e99b4f1cfd46961918dab"
+  "gitSyncId": "657245d51a526d083ef35d72_657278c19baf471bca04ae55"
 }

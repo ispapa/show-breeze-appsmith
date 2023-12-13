@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "events",
+    "name": "get_venues_from_userId_18",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/events"
+        "url": "web:4000/u/users/18/venues"
       },
       "invalids": [],
       "messages": [],
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -45,10 +45,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T17:19:07Z"
+    "userPermissions": []
   },
-  "id": "View upcoming events_events",
+  "id": "View upcoming events_get_venues_from_userId_18",
   "deleted": false,
-  "gitSyncId": "656e97aaf1cfd46961918da2_656e99b4f1cfd46961918dab"
+  "gitSyncId": "657245d51a526d083ef35d72_657245e41a526d083ef35d7d"
 }

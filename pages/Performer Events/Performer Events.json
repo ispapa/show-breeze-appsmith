@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Resell ticket",
-    "slug": "resell-ticket",
+    "name": "Performer Events",
+    "slug": "performer-events",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 440,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 54,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 560,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Resell ticket_getTickets",
-              "name": "getTickets",
+              "id": "Performer Events_getting_events_for_user",
+              "name": "getting_events_for_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Performer Events_getting_venues_from_user",
+              "name": "getting_venues_from_user",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,7 +47,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Resell ticket",
+        "id": "Performer Events",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6568f0747e2bb40560290018_6568f0747e2bb4056029001a"
+  "gitSyncId": "657245d51a526d083ef35d72_6572504d1a526d083ef35d80"
 }

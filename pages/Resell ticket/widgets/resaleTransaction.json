@@ -1,0 +1,285 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "borderColor": "#E0DEDE",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "onSubmit": "{{addTransaction.run(resaleTransaction.formData).then(() => {\n  getTickets.run();\n});\neditTicket.run(resaleTransaction.formData).then(() => {\n  showAlert('Successfully transferred ticket!', '');\n});}}",
+    "topRow": 40,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "submitButtonStyles.borderRadius"},
+        {"key": "resetButtonStyles.buttonColor"},
+        {"key": "resetButtonStyles.borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.sellerEmail.defaultValue"},
+        {"key": "schema.__root_schema__.children.sellerEmail.accentColor"},
+        {"key": "schema.__root_schema__.children.sellerEmail.borderRadius"},
+        {"key": "schema.__root_schema__.children.buyerEmail.defaultValue"},
+        {"key": "schema.__root_schema__.children.buyerEmail.accentColor"},
+        {"key": "schema.__root_schema__.children.buyerEmail.borderRadius"},
+        {"key": "schema.__root_schema__.children.ticketId.defaultValue"},
+        {"key": "schema.__root_schema__.children.ticketId.accentColor"},
+        {"key": "schema.__root_schema__.children.ticketId.borderRadius"},
+        {"key": "schema.__root_schema__.children.price.defaultValue"},
+        {"key": "schema.__root_schema__.children.price.accentColor"},
+        {"key": "schema.__root_schema__.children.price.borderRadius"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 89,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+        "children": {
+            "buyerEmail": {
+                "labelTextSize": "0.875rem",
+                "identifier": "buyerEmail",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.buyerEmail))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "dataType": "string",
+                "accessor": "buyerEmail",
+                "isVisible": true,
+                "label": "Buyer Email",
+                "originalIdentifier": "buyerEmail",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
+            "price": {
+                "labelTextSize": "0.875rem",
+                "identifier": "price",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.price))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "dataType": "number",
+                "accessor": "price",
+                "isVisible": true,
+                "label": "Price",
+                "originalIdentifier": "price",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 3,
+                "isDisabled": false,
+                "sourceData": 0,
+                "fieldType": "Number Input"
+            },
+            "sellerEmail": {
+                "labelTextSize": "0.875rem",
+                "identifier": "sellerEmail",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sellerEmail))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "dataType": "string",
+                "accessor": "sellerEmail",
+                "isVisible": true,
+                "label": "Your Email",
+                "originalIdentifier": "sellerEmail",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
+            "ticketId": {
+                "labelTextSize": "0.875rem",
+                "identifier": "ticketId",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ticketId))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "dataType": "number",
+                "accessor": "ticketId",
+                "isVisible": true,
+                "label": "Ticket Id",
+                "originalIdentifier": "ticketId",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(resaleTransaction.sourceData, resaleTransaction.formData, resaleTransaction.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": 0,
+                "fieldType": "Number Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "buyerEmail": "",
+            "price": 0,
+            "sellerEmail": "",
+            "ticketId": ""
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "mobileBottomRow": 51,
+    "widgetName": "resaleTransaction",
+    "submitButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [],
+    "displayName": "JSON Form",
+    "bottomRow": 89,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Resale Information",
+    "hideCard": false,
+    "mobileRightColumn": 19,
+    "parentColumnSpace": 11.796875,
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
+    "borderWidth": "1",
+    "sourceData": "{{\n{\n\t\"sellerEmail\": \"\",\n\t\"buyerEmail\": \"\",\n\t\"ticketId\": 0,\n\t\"price\": 0.0,\n}\n}}",
+    "resetButtonLabel": "Reset",
+    "key": "xftcfd1xfu",
+    "backgroundColor": "#fff",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "widgetId": "8v7debrq07",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 10,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 40,
+    "mobileLeftColumn": 0,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}
